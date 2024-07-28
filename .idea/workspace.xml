@@ -5,13 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1406440b-e0df-443f-9c7f-ac8945ae5deb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Test/BaseClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/PageObjectRepo/ThePOMBaseMainPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestCasesRepo/TestCaseLogoCheck1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Test/BaseClass.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +27,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2jhm3pNXDC5MrFLZLkNd8gAA5bj" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -37,26 +39,93 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "E:/Java IntelliJ/P_O_M-JavaSelenium1"
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration name="BaseClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test.BaseClass" />
+  <component name="RunManager" selected="TestNG.TestCaseLogoCheck1">
+    <configuration name="TestCaseLogoCheck1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="P_O_M-JavaSelenium1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Test.*" />
+          <option name="PATTERN" value="TestCasesRepo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="TestCasesRepo" />
+      <option name="MAIN_CLASS_NAME" value="TestCasesRepo.TestCaseLogoCheck1" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestCaseLogoCheck1.verifyLogoTest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="P_O_M-JavaSelenium1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestCasesRepo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TestCasesRepo" />
+      <option name="MAIN_CLASS_NAME" value="TestCasesRepo.TestCaseLogoCheck1" />
+      <option name="METHOD_NAME" value="verifyLogoTest1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestCasesRepo in P_O_M-JavaSelenium1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="P_O_M-JavaSelenium1" />
+      <option name="TEST_OBJECT" value="directory" />
+      <dir value="$PROJECT_DIR$/src/test/java/TestCasesRepo" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestCaseLogoCheck1" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="P_O_M-JavaSelenium1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestCasesRepo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TestCasesRepo" />
+      <option name="MAIN_CLASS_NAME" value="TestCasesRepo.TestCaseLogoCheck1" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestCaseLogoCheck1.testLogo" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="P_O_M-JavaSelenium1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestCasesRepo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TestCasesRepo" />
+      <option name="MAIN_CLASS_NAME" value="TestCasesRepo.TestCaseLogoCheck1" />
+      <option name="METHOD_NAME" value="testLogo" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BaseClass" />
+        <item itemvalue="TestNG.TestCaseLogoCheck1" />
+        <item itemvalue="JUnit.TestCasesRepo in P_O_M-JavaSelenium1" />
+        <item itemvalue="TestNG.TestCaseLogoCheck1.testLogo" />
+        <item itemvalue="JUnit.TestCaseLogoCheck1" />
+        <item itemvalue="JUnit.TestCaseLogoCheck1.verifyLogoTest1" />
       </list>
     </recent_temporary>
   </component>
