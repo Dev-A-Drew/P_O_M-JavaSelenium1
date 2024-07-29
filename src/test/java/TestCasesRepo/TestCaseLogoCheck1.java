@@ -1,6 +1,7 @@
 package TestCasesRepo;
 
 import PageObjectRepo.ThePOMBaseMainPage;
+import PageObjectRepo.ThePOMBaseWishListPage;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -26,12 +27,36 @@ public class TestCaseLogoCheck1 {
     }
 
     @Test
-    public void testLogo()
+    public void logoTest()
     {
         ThePOMBaseMainPage tlv=new ThePOMBaseMainPage(driver);
         WebElement element1 = tlv.forLogo();
         Boolean flag = element1.isDisplayed();
         Assert.assertTrue(flag);
+    }
+
+    @Test
+    public void wishListButtonTest()
+    {
+        try {
+            ThePOMBaseMainPage tvl = new ThePOMBaseMainPage(driver);
+            tvl.wishListButton().click();
+            ThePOMBaseWishListPage wlp = new ThePOMBaseWishListPage(driver);
+            WebElement element2 = wlp.checkWishListMessage();
+            Boolean flag2 = element2.isDisplayed();
+            Assert.assertTrue(flag2);
+            if (flag2)
+            {
+                System.out.println("exito");
+            }
+            else
+                System.out.println("No exito");
+            }
+        catch (Exception e)
+        {
+            System.out.println("Exceptions Caught"+ e.getMessage());
+        }
+
     }
     @AfterMethod
     public void tearDown()
