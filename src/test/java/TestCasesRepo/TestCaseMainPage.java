@@ -11,7 +11,7 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import java.time.Duration;
 
-public class TestCaseLogoCheck1 {
+public class TestCaseMainPage {
 
     WebDriver driver;
 
