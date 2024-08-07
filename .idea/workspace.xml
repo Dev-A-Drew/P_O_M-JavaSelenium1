@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1406440b-e0df-443f-9c7f-ac8945ae5deb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestCasesRepo/TestCaseWishList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PageObjectRepo/ThePOMBaseWishListPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PageObjectRepo/ThePOMBaseWishListPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestCasesRepo/TestCaseLogoCheck1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestCasesRepo/TestCaseMainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PageObjectRepo/ThePOMBaseMainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PageObjectRepo/ThePOMBaseMainPage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,14 +32,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "E:/Java IntelliJ/Seleniumg"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/Java IntelliJ/P_O_M-JavaSelenium1&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="TestNG.TestCaseWishList.bestSellersOptionTest">
     <configuration name="PageObjectRepo in P_O_M-JavaSelenium1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="P_O_M-JavaSelenium1" />
