@@ -5,8 +5,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1406440b-e0df-443f-9c7f-ac8945ae5deb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/TestNG.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/BrumateWebSite/PageObjectRepo/ThePOMBaseMainPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/BrumateWebSite/PageObjectRepo/ThePOMBaseWishListPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/BrumateWebSite/TestCasesRepo/TestCaseMainPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/BrumateWebSite/TestCasesRepo/TestCaseWishList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Reports/Report1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/main/java/OOPConcepts/Inheritance/DemiGodClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/main/java/OOPConcepts/Inheritance/GodClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/main/java/OOPConcepts/Inheritance/HumanClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/main/java/OOPConcepts/Inheritance/MainOfPowers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestNG.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TestNG.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PageObjectRepo/ThePOMBaseMainPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PageObjectRepo/ThePOMBaseWishListPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestCasesRepo/TestCaseMainPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestCasesRepo/TestCaseWishList.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,15 +60,26 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "E:/Java IntelliJ/Seleniumg",
+    "last_opened_file_path": "E:/Java IntelliJ/JUnit5-TestNG",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.E:/Java IntelliJ/P_O_M-JavaSelenium1/TestNG.xml">
-    <configuration name="PageObjectRepo in P_O_M-JavaSelenium1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Java IntelliJ\P_O_M-JavaSelenium1\src\test\java\Brumate\com\PageObjectRepo" />
+      <recent name="E:\Java IntelliJ\P_O_M-JavaSelenium1\src\test\java\Brumate\com" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Report1">
+    <configuration name="Report1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Reports.Report1" />
       <module name="P_O_M-JavaSelenium1" />
-      <option name="TEST_OBJECT" value="directory" />
-      <dir value="$PROJECT_DIR$/src/test/java/PageObjectRepo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Reports.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -60,17 +94,54 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestCaseMainPage" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestCaseMainPage.logoTest (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="P_O_M-JavaSelenium1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="TestCasesRepo.*" />
+          <option name="PATTERN" value="BrumateWebSite.TestCasesRepo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="TestCasesRepo" />
-      <option name="MAIN_CLASS_NAME" value="TestCasesRepo.TestCaseMainPage" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PACKAGE_NAME" value="BrumateWebSite.TestCasesRepo" />
+      <option name="MAIN_CLASS_NAME" value="BrumateWebSite.TestCasesRepo.TestCaseMainPage" />
+      <option name="METHOD_NAME" value="logoTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestCaseMainPage.logoTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="P_O_M-JavaSelenium1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Brumate.com.TestCasesRepo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Brumate.com.TestCasesRepo" />
+      <option name="MAIN_CLASS_NAME" value="Brumate.com.TestCasesRepo.TestCaseMainPage" />
+      <option name="METHOD_NAME" value="logoTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestCaseMainPage.logoTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="P_O_M-JavaSelenium1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BrumateWebSite.TestCasesRepo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Brumate.TestCasesRepo" />
+      <option name="MAIN_CLASS_NAME" value="BrumateWebSite.TestCasesRepo.TestCaseMainPage" />
+      <option name="METHOD_NAME" value="logoTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -95,29 +166,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestCasesRepo" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="P_O_M-JavaSelenium1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="TestCasesRepo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="TestCasesRepo" />
-      <option name="TEST_OBJECT" value="PACKAGE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Report1" />
         <item itemvalue="TestNG.E:/Java IntelliJ/P_O_M-JavaSelenium1/TestNG.xml" />
+        <item itemvalue="TestNG.TestCaseMainPage.logoTest (1)" />
+        <item itemvalue="TestNG.TestCaseMainPage.logoTest" />
         <item itemvalue="TestNG.TestCaseWishList.bestSellersOptionTest" />
-        <item itemvalue="TestNG.TestCaseMainPage" />
-        <item itemvalue="TestNG.TestCasesRepo" />
-        <item itemvalue="JUnit.PageObjectRepo in P_O_M-JavaSelenium1" />
       </list>
     </recent_temporary>
   </component>

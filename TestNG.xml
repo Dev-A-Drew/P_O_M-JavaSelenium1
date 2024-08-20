@@ -1,8 +1,11 @@
 <suite name="TestP_O_MJavaSelenium">
     <test verbose="2" preserve-order="true" name="E:\Java IntelliJ\P_O_M-JavaSelenium1">
         <classes>
-            <class name="TestCasesRepo.TestCaseMainPage"/>
-            <class name="TestCasesRepo.TestCaseWishList"/>
+            <class name="BrumateWebSite.TestCasesRepo.TestCaseMainPage"/> <!--
+            <methods>
+                <exclude name="logoTest.*"/>
+            </methods>
+         --><class name="BrumateWebSite.TestCasesRepo.TestCaseWishList"/>
         </classes>
     </test>
 </suite>

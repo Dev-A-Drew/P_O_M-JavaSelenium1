@@ -1,6 +1,6 @@
-package TestCasesRepo;
+package BrumateWebSite.TestCasesRepo;
 
-import PageObjectRepo.ThePOMBaseWishListPage;
+import BrumateWebSite.PageObjectRepo.ThePOMBaseWishListPage;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterMethod;
@@ -18,7 +18,6 @@ public class TestCaseWishList {
     {
         System.setProperty("webdriver.chrome.driver","C:\\ChromeDriverSelenium\\chromedriver-win64\\chromedriver.exe");
         driver = new ChromeDriver();
-        //driver.get("https://www.rediff.com/");
         driver.get("https://www.brumate.com/pages/wishlist");
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
@@ -31,7 +30,7 @@ public class TestCaseWishList {
             if (bsot.verifyTextBestSeller1().isDisplayed()) {
                 System.out.println("Text found in Best Seller page is: \n"+bsot.getTextBestSeller1().getText());
             } else {
-                System.out.println("Algo fallo, revisalo");
+                System.out.println("Algo fallo, revisa el test bestSellerOptionTest");
             }
         }
         catch (Exception e)
@@ -42,7 +41,6 @@ public class TestCaseWishList {
     }
     @AfterMethod
     public void tearDown()
-    {
-        driver.quit();
+    {driver.quit();
     }
 }
