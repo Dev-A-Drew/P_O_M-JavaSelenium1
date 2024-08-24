@@ -31,7 +31,14 @@ public class Report1 {
         ExtentSparkReporter sparkReporterB = new ExtentSparkReporter(fileC);
         extentReportA.attachReporter(sparkReporterB);
 
-        ExtentTest testD1 = extentReportA.createTest("TestCase - 1");
+        ExtentTest testD1 = extentReportA
+                            .createTest("TestCase - 1")
+                            .log(Status.INFO,"Info-1")
+                            .log(Status.PASS, "Info-Pass")
+                            .log(Status.WARNING,"Info Warning")
+                            .log(Status.SKIP,"Info-Skip")
+                            .log(Status.FAIL, "Info-Fail");
+
         testD1.pass("This Test1 is passed");
 
         ExtentTest testD2 = extentReportA.createTest("TestCase - 2");
@@ -42,11 +49,6 @@ public class Report1 {
 
         extentReportA.flush();
         Desktop.getDesktop().browse(new File("E:\\Java IntelliJ\\P_O_M-JavaSelenium1\\src\\ReportNameOfTestOrSuit.html").toURI());
-
-
-        
-
-
 
     }
 }
