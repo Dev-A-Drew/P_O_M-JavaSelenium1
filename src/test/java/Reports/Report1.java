@@ -44,6 +44,8 @@ public class Report1 {
         Desktop.getDesktop().browse(new File("E:\\Java IntelliJ\\P_O_M-JavaSelenium1\\src\\ReportNameOfTestOrSuit.html").toURI());
 
 
+        
+
 
 
     }
