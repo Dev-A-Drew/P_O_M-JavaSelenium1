@@ -5,31 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1406440b-e0df-443f-9c7f-ac8945ae5deb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/BrumateWebSite/PageObjectRepo/ThePOMBaseMainPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/BrumateWebSite/PageObjectRepo/ThePOMBaseWishListPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/BrumateWebSite/TestCasesRepo/TestCaseMainPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/BrumateWebSite/TestCasesRepo/TestCaseWishList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Reports/Report1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/main/java/OOPConcepts/Inheritance/DemiGodClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/main/java/OOPConcepts/Inheritance/GodClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/main/java/OOPConcepts/Inheritance/HumanClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/main/java/OOPConcepts/Inheritance/MainOfPowers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestNG.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TestNG.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PageObjectRepo/ThePOMBaseMainPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PageObjectRepo/ThePOMBaseWishListPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestCasesRepo/TestCaseMainPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestCasesRepo/TestCaseWishList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ReportNameOfTestOrSuit.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/ReportNameOfTestOrSuit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Reports/Report1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Reports/Report1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
