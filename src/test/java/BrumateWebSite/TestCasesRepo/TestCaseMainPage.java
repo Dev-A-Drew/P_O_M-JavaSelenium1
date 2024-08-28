@@ -39,22 +39,9 @@ public class TestCaseMainPage {
         }
         catch(NoSuchElementException e)
         {
-            System.out.println("Ve primero que sale para poner mensaje aqui"+e.getMessage());
+            System.out.println("Check the logs if there is any message about clicking the close widget button"+e.getMessage());
         }
     }
-
-    /*
-    @BeforeTest
-    public void skipAnnouncement(){
-        ThePOMBaseMainPage tlv=new ThePOMBaseMainPage(driver);
-        if(tlv.widgetsAnnouncement().isDisplayed())
-        {
-            elementA = tlv.widgetsAnnouncement();
-            elementA.click();
-        }
-    }
-
-    */
 
     @Test
     @Tag("Logo Verification Test")
