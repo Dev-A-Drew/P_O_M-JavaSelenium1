@@ -4,12 +4,16 @@ import BrumateWebSite.PageObjectRepo.ThePOMBaseMainPage;
 import BrumateWebSite.PageObjectRepo.ThePOMBaseWishListPage;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Tag;
+import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import java.time.Duration;
@@ -17,6 +21,8 @@ import java.time.Duration;
 public class TestCaseMainPage {
 
     WebDriver driver;
+    WebElement elementA;
+    WebDriverWait wait= new WebDriverWait(driver, Duration.ofSeconds(6));
 
     @BeforeMethod
     public void setup1()
@@ -26,7 +32,29 @@ public class TestCaseMainPage {
         driver.get("https://www.brumate.com/");
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+        ThePOMBaseMainPage tvl = new ThePOMBaseMainPage(driver);
+        try{
+            if(tvl.isWidgetPresent())
+            {tvl.clickCloseWidget().click();}
+        }
+        catch(NoSuchElementException e)
+        {
+            System.out.println("Ve primero que sale para poner mensaje aqui"+e.getMessage());
+        }
     }
+
+    /*
+    @BeforeTest
+    public void skipAnnouncement(){
+        ThePOMBaseMainPage tlv=new ThePOMBaseMainPage(driver);
+        if(tlv.widgetsAnnouncement().isDisplayed())
+        {
+            elementA = tlv.widgetsAnnouncement();
+            elementA.click();
+        }
+    }
+
+    */
 
     @Test
     @Tag("Logo Verification Test")
@@ -61,8 +89,9 @@ public class TestCaseMainPage {
         {
             System.out.println("Exceptions Caught"+ e.getMessage());
         }
-
     }
+
+
 
 
     @AfterMethod
