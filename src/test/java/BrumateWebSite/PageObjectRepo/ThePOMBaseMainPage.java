@@ -3,11 +3,20 @@ package BrumateWebSite.PageObjectRepo;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.util.List;
 
 public class ThePOMBaseMainPage {
     private WebDriver driver;
+    public ThePOMBaseMainPage(WebDriver driver) {this.driver = driver;}
+    public WebDriver chromeDriverConnection(){
+        System.setProperty("webdriver.chrome.driver","C:\\ChromeDriverSelenium\\chromedriver-win64\\chromedriver.exe");
+        driver = new ChromeDriver();
+        return driver;
+    }
+
+
 
     By announcementWidget = By.xpath("*[@id=\"ps-desktop-widget__close\"]");
     By theLogo = By.cssSelector(".css-bqykk2 > .css-zc1vnn");
@@ -18,7 +27,7 @@ public class ThePOMBaseMainPage {
 
     By widgetCloseBtn = By.xpath("*[@id=\"ps-desktop-widget__close\"]/svg");
 
-    public ThePOMBaseMainPage(WebDriver driver) {this.driver = driver;}
+
 
     public WebElement forLogo() {
         return driver.findElement(theLogo);
