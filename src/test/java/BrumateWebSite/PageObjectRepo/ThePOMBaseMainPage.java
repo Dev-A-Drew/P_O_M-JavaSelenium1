@@ -8,25 +8,25 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import java.util.List;
 
 public class ThePOMBaseMainPage {
-    private WebDriver driver;
-    public ThePOMBaseMainPage(WebDriver driver) {this.driver = driver;}
-    public WebDriver chromeDriverConnection(){
-        System.setProperty("webdriver.chrome.driver","C:\\ChromeDriverSelenium\\chromedriver-win64\\chromedriver.exe");
-        driver = new ChromeDriver();
-        return driver;
+    WebDriver driver;
+
+    public ThePOMBaseMainPage(WebDriver driver) {this.driver=driver;}
+
+    public void urlLink ()
+    {
+        driver.get("https://www.brumate.com/");
     }
 
-
-
-    By announcementWidget = By.xpath("*[@id=\"ps-desktop-widget__close\"]");
+//LOCATORS
     By theLogo = By.cssSelector(".css-bqykk2 > .css-zc1vnn");
     By wishListButton_By = By.cssSelector(".css-5tv7te > .css-rlfxqc .css-zc1vnn");
 
-    By drinkwareDropbxBtn = By.xpath("*[@id=\"__next\"]/header/div[1]/nav/a[1]");
-    By widgetPresent = By.xpath("*[@id=\"ps-desktop-widget__body\"]");
+    By drinkwareDropbxBtn = By.xpath("//*[@id=\"__next\"]/header/div[1]/nav/a[1]");
+    By widgetPresent = By.xpath("//*[@id=\"ps-desktop-widget__body\"]");
 
-    By widgetCloseBtn = By.xpath("*[@id=\"ps-desktop-widget__close\"]/svg");
+    By widgetCloseBtn = By.xpath("//*[@id=\"ps-desktop-widget__close\"]");
 
+    By announcementWidget = By.xpath("//*[@id=\"ps-desktop-widget__close\"]");
 
 
     public WebElement forLogo() {
@@ -40,8 +40,8 @@ public class ThePOMBaseMainPage {
     public WebElement drinkwareBtn(){return driver.findElement(drinkwareDropbxBtn);}
 
     public boolean isWidgetPresent(){
-        List<WebElement> widgets=driver.findElements(widgetPresent);
-        return !widgets.isEmpty();}
+        List <WebElement> widgets = driver.findElements(widgetPresent);
+        return !widgets.isEmpty(); }
     public WebElement clickCloseWidget(){
         return driver.findElement(widgetCloseBtn);
     }

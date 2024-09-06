@@ -1,5 +1,6 @@
 package BrumateWebSite.TestCasesRepo;
 
+
 import BrumateWebSite.PageObjectRepo.ThePOMBaseWishListPage;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -21,6 +22,8 @@ public class TestCaseWishList {
         driver.get("https://www.brumate.com/pages/wishlist");
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+
+
     }
     @Test
     public void bestSellersOptionTest() {
