@@ -1,7 +1,5 @@
 package BrumateWebSite.TestCasesRepo;
 
-
-
 import BrumateWebSite.PageObjectRepo.ThePOMBaseMainPage;
 import BrumateWebSite.PageObjectRepo.ThePOMBaseWishListPage;
 import org.junit.jupiter.api.DisplayName;
@@ -32,8 +30,6 @@ public class TestCaseMainPage {
         ThePOMBaseMainPage tvl = new ThePOMBaseMainPage(driver);
         tvl.urlLink();
 
-
-
         try{
             if(tvl.isWidgetPresent())
             {tvl.clickCloseWidget().click();}
@@ -43,6 +39,7 @@ public class TestCaseMainPage {
             System.out.println("Check the logs if there is any message about clicking the close widget button"+e.getMessage());
         }
     }
+
 
     @Test
     @Tag("Logo Verification Test")
@@ -55,6 +52,7 @@ public class TestCaseMainPage {
         Assert.assertTrue(flag);
     }
 
+
     @Test
     @DisplayName("Wish List Button Test")
     public void wishListButtonTest()
@@ -66,13 +64,16 @@ public class TestCaseMainPage {
             WebElement element2 = wlp.checkWishListMessage();
             Boolean flag2 = element2.isDisplayed();
             //Assert.assertTrue(flag2);
-            if (flag2)
-            {
+            String s= flag2? "Exito":"No Exito";
+            /*
+            if (flag2) {
                 System.out.println("exito");
-            }
-            else
+            } else {
                 System.out.println("No exito");
             }
+            */
+        }
+
         catch (Exception e)
         {
             System.out.println("Exceptions Caught"+ e.getMessage());

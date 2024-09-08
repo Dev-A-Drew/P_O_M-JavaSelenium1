@@ -6,10 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="1406440b-e0df-443f-9c7f-ac8945ae5deb" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/BrumateWebSite/PageObjectRepo/BaseClass.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/BrumateWebSite/PageObjectRepo/ThePOMBaseMainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BrumateWebSite/PageObjectRepo/ThePOMBaseMainPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/BrumateWebSite/TestCasesRepo/TestCaseMainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BrumateWebSite/TestCasesRepo/TestCaseMainPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/BrumateWebSite/TestCasesRepo/TestCaseWishList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BrumateWebSite/TestCasesRepo/TestCaseWishList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

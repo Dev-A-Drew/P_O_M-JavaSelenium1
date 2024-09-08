@@ -17,7 +17,13 @@ public class ThePOMBaseMainPage {
         driver.get("https://www.brumate.com/");
     }
 
+
+
+
 //LOCATORS
+
+
+
     By theLogo = By.cssSelector(".css-bqykk2 > .css-zc1vnn");
     By wishListButton_By = By.cssSelector(".css-5tv7te > .css-rlfxqc .css-zc1vnn");
 
@@ -27,6 +33,10 @@ public class ThePOMBaseMainPage {
     By widgetCloseBtn = By.xpath("//*[@id=\"ps-desktop-widget__close\"]");
 
     By announcementWidget = By.xpath("//*[@id=\"ps-desktop-widget__close\"]");
+
+
+
+
 
 
     public WebElement forLogo() {
